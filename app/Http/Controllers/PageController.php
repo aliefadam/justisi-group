@@ -12,4 +12,32 @@ class PageController extends Controller
             "title" => "Beranda",
         ]);
     }
+
+    public function blog()
+    {
+        return view("blog", [
+            "title" => "Blog",
+        ]);
+    }
+
+    public function berita()
+    {
+        return view("berita", [
+            "title" => "Berita",
+        ]);
+    }
+
+    public function pendaftaran()
+    {
+        return view("pendaftaran", [
+            "title" => "Pendaftaran",
+        ]);
+    }
+
+    public function prosedur()
+    {
+        return view("prosedur", [
+            "title" => "Prosedur",
+        ]);
+    }
 }
