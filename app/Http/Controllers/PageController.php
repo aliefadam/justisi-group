@@ -20,6 +20,13 @@ class PageController extends Controller
         ]);
     }
 
+    public function tentang_blog()
+    {
+        return view("tentang_blog", [
+            "title" => "Tentang Blog",
+        ]);
+    }
+
     public function berita()
     {
         return view("berita", [
@@ -38,6 +45,20 @@ class PageController extends Controller
     {
         return view("prosedur", [
             "title" => "Prosedur",
+        ]);
+    }
+
+    public function tentang()
+    {
+        return view("tentang", [
+            "title" => "Tentang",
+        ]);
+    }
+
+    public function login()
+    {
+        return view("login", [
+            "title" => "Login",
         ]);
     }
 }

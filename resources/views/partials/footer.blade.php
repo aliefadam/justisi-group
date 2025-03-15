@@ -1,7 +1,7 @@
 <footer>
     <div class="flex justify-between items-center py-5 px-10 bg-gradient-to-r from-[#793A09] to-[#DF6B11]">
         <img src="/imgs/logo 2.png" class="w-[130px]">
-        <a href="" class="bg-white px-7 py-2.5 rounded-full text-[#9A4F14] poppins-medium">Masuk</a>
+        <a href="{{ route('login') }}" class="bg-white px-7 py-2.5 rounded-full text-[#9A4F14] poppins-medium">Masuk</a>
     </div>
     <div class="p-10 flex gap-8">
         <div class="flex-[1] pr-5 border-r border-black">
